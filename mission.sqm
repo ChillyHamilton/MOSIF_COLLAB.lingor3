@@ -12,7 +12,7 @@ class EditorData
 	};
 	class ItemIDProvider
 	{
-		nextID=7098;
+		nextID=7104;
 	};
 	class MarkerIDProvider
 	{
@@ -20,14 +20,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=690;
+		nextID=743;
 	};
 	class Camera
 	{
-		pos[]={1727.6654,8.1458206,9840.75};
-		dir[]={-0.67702442,-0.050678503,0.73427159};
-		up[]={-0.034385044,0.99870896,0.037293021};
-		aside[]={0.73521775,-7.0242095e-007,0.6778937};
+		pos[]={68.379753,23.33605,10154.699};
+		dir[]={-0.41539508,-0.52163529,0.74521387};
+		up[]={-0.25397643,0.85316855,0.45563075};
+		aside[]={0.87346613,-1.4901161e-008,0.48688507};
 	};
 };
 binarizationWanted=0;
@@ -6127,6 +6127,7 @@ class Mission
 			{
 				position[]={30.452999,0.072000504,10224.291};
 			};
+			init="ALiVE_MIL_CQB_CUSTOM_UNITBLACKLIST = [""OPF_mas_SoldierA_Para_AA_F""]; ALiVE_PLACEMENT_CUSTOM_UNITBLACKLIST = [""OPF_mas_SoldierA_Para_AA_F""];" \n "ALiVE_PLACEMENT_CUSTOM_GROUPBLACKLIST = [""OPF_mas_G_F_AATeam""];";
 			id=2082;
 			type="ALiVE_require";
 			atlOffset=30.072001;
